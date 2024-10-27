@@ -115,3 +115,39 @@
   
   }
   
+
+
+  @media only screen and (max-width:768px) and (min-width:400px)  {
+    .proImg {
+      height: 10%;
+      right: 90px;
+      width: auto;
+      
+    }
+    .mdiv .card{
+      width: 25%;
+      height: 25%;
+    }
+    .mdiv .card{
+      width: 25%px;
+      height: auto;
+    }
+    .mdiv {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+    .myskills {
+ 
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+    }
+    .mainBody{
+      display: flex;
+      justify-content: center;
+      column-gap: -10px;
+    }
+  
+  }
+  
