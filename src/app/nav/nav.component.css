@@ -1,0 +1,32 @@
+.navParent{
+    display: flex;
+    justify-content: center;
+    }
+    .navbar{
+        width: 95vw;
+        border-radius: 25px;
+        margin-top:25px ;
+    
+    
+    }
+    #navbarNav{
+        display: flex;
+    justify-content: center;
+    
+    
+    }
+    .nav-item{
+        padding: 0px 85px;
+        font-size: 18px;
+        align-self: center;
+    
+    }
+    .name{
+        font-size: 30px;
+        color:#ffff
+    }
+    .active{
+        background-color: #28e98c;
+        border-radius: 20px;
+    }
+    

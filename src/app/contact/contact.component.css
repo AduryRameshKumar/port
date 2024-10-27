@@ -1,0 +1,84 @@
+.bg {
+    position: absolute;
+    top: 0px;
+
+    width: 100vw;
+    height: 100vh;
+    filter: blur(220px);
+
+  }
+.bg {
+    z-index: 1;
+  background: linear-gradient(
+    90deg,
+    #ff7f7f,
+    #7fafff,
+    #7fff7f,
+    #ffff7f,
+    #ff7f7f,
+    #7fbfff,
+    #ffbf7f
+  );
+  background-size: 300% 300%; /* Increase background size for a more gradual transition */
+  animation: animatedGradient 5s ease-in-out infinite;
+  z-index: 0;
+}
+
+/* Animate background position for a smooth, continuous color flow */
+@keyframes animatedGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.main{
+ padding-top: 150px;
+ z-index: 800;
+
+
+}
+.card{
+    z-index: 1000;
+    width:80%;
+    margin: auto;
+    -webkit-box-shadow: 28px 10px 54px -1px rgba(0,0,0,0.22);
+-moz-box-shadow: 28px 10px 54px -1px rgba(0,0,0,0.22);
+box-shadow: 28px 10px 54px -1px rgba(0,0,0,0.22);
+    
+    
+}
+
+.head{
+    text-align: center;
+    font-size: 50px;
+}
+
+.form-control{
+    height: 250px;
+
+}
+.icons{
+    display: flex;
+    justify-content:space-around;
+    padding: 50px;
+}
+.icons img{
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+}
+
+
+span:hover{
+    transform: scale(111%);
+   
+}
+.email{
+    text-align: center;
+    padding: 50px;
+}

@@ -1,0 +1,117 @@
+
+  * {
+    font-family: poppins;
+  }
+  .navbarFix {
+    position: fixed;
+    left: 35px;
+    z-index: 1000;
+  }
+  .textInfo {
+    font-size: 3vmax;
+    width: 50vw;
+    padding: 10%;
+  }
+  .bg {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    filter: blur(1000px);
+    z-index: 1;
+  }
+  .myskills {
+    width: 643px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .myskills .card {
+    width: 150px;
+  }
+  .proImg {
+    height: 114%;
+    right: -25px;
+    width: auto;
+    position: fixed;
+    top: 20px;
+    
+  }
+  .skillsImg {
+    height: 114px;
+    width: auto;
+    object-fit: cover;
+  }
+  .z-index {
+    position: relative;
+    z-index: 1;
+  } /* Base setup for a multi-layer dark-themed animated background */
+  /* Base setup for a dark-themed animated background */
+  .bg {
+    background: linear-gradient(
+      45deg,
+      #ff7f7f,
+      #7fafff,
+      #7fff7f,
+      #ffff7f,
+      #ff7f7f,
+      #7fbfff,
+      #ffbf7f
+    );
+    background-size: 300% 300%; /* Increase background size for a more gradual transition */
+    animation: animatedGradient 20s ease-in-out infinite;
+    z-index: 0;
+  }
+  
+  /* Animate background position for a smooth, continuous color flow */
+  @keyframes animatedGradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .navParent {
+    position: fixed;
+  
+    left: 2%;
+    z-index: 11;
+  }
+  .mainBody {
+  
+    padding-top: 15vh;
+    z-index: 12000;
+  }
+  .mySkillsHEading {
+    padding-left: 74px !important;
+  }
+  .mySkillsHEadingMain{
+    padding-left: 274px !important;
+    font-size: 32px;
+  
+  }
+  .mySkillsHEadingMain p{
+    height: auto;
+    width: 200px;
+  }
+  .zxis {
+    z-index: 600 !important;
+  }
+  .myskills .card{
+    z-index: 500;
+  }
+  .myskills .card .card-body span{
+    text-align: center;
+  }
+  .part1 .mainBody{
+    height: 100vh;
+  }
+  .zxis1{
+    z-index: 5100 !important;
+  
+  }
+  
