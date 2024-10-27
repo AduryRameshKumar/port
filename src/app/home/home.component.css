@@ -30,11 +30,11 @@
     width: 150px;
   }
   .proImg {
-    height: 114%;
-    right: -25px;
+    height: 95%;
+    right: 90px;
     width: auto;
     position: fixed;
-    top: 20px;
+    top: 90px;
     
   }
   .skillsImg {
@@ -59,7 +59,7 @@
       #ffbf7f
     );
     background-size: 300% 300%; /* Increase background size for a more gradual transition */
-    animation: animatedGradient 20s ease-in-out infinite;
+    animation: animatedGradient 3s ease-in-out infinite;
     z-index: 0;
   }
   
